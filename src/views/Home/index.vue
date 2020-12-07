@@ -72,7 +72,7 @@
           </el-popover>
         </div>
         <div class="copyright">
-          ©2020 BY  舞
+          ©2020 BY 舞1
           <a class="beian" rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">豫ICP备19047103号-1</a>
         </div>
       </div>
