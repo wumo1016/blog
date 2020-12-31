@@ -110,10 +110,15 @@ export default {
       background-size: cover;
       `
     } */
+    /*
+    备用PC地址
+    https://unsplash.it/1600/900?random
+
+    */
     Background() {
       return `
-      background: url('${window.screen.width > 600 ? 'https://api.ixiaowai.cn/gqapi/gqapi.php'
-    : 'http://api.btstu.cn/sjbz/zsy.php'}?${new Date().getTime()}') no-repeat;
+      background: url('${window.screen.width > 600 ? 'https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture'
+    : 'http://api.btstu.cn/sjbz/zsy.php'}${window.screen.width > 600 ? '&' : '?'}${new Date().getTime()}') no-repeat;
       background-position: center center;
       background-size: cover;
       `
