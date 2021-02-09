@@ -226,7 +226,7 @@ export default {
       .beian {
         margin-left: 10px;
         &:hover {
-          color: rgb(73, 73, 247);
+          color: rgb(79, 79, 252);
           text-decoration: underline;
         }
       }
