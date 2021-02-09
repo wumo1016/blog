@@ -73,7 +73,7 @@
         </div>
         <div class="copyright">
           ©2020 BY 舞
-          <a class="beian" rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">豫ICP备19047103号-1</a>
+          <a class="beian" rel="nofollow" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备19047103号-1</a>
         </div>
       </div>
       <div class="wangzhi">
