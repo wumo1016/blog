@@ -6,13 +6,13 @@ module.exports = {
   devServer: {
     port: 8080,
     proxy: {
-      '^/sweet': {
-        target: 'https://api.lovelive.tools/',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/sweet': ''
-        }
-      },
+      // '^/sweet': {
+      //   target: 'https://api.lovelive.tools/',
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/sweet': ''
+      //   }
+      // },
     }
   },
   productionSourceMap: false,

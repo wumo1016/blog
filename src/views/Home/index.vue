@@ -117,7 +117,7 @@ export default {
     */
     Background() {
       return `
-      background: url('${window.screen.width > 600 ? 'https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture'
+      background: url('${window.screen.width > 600 ? 'https://api.vvhan.com/api/bing?type=sj'
     : 'http://api.btstu.cn/sjbz/zsy.php'}${window.screen.width > 600 ? '&' : '?'}${new Date().getTime()}') no-repeat;
       background-position: center center;
       background-size: cover;
@@ -125,8 +125,8 @@ export default {
     }
   },
   mounted() {
-    this.$axios.get('/sweet/api/SweetNothings').then(res => {
-      this.sweetNote = res.data
+    this.$axios.get('https://api.uomg.com/api/rand.qinghua').then(res => {
+      this.sweetNote = res.data.content
     })
   },
   methods: {
